@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'product sans';
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#background{
+    position: relative;
+    width: 100%;
+    height: 105vh;
+    overflow: hidden;
+}
+
+#background img{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+#Gradient{
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+    height: 40%;
+    bottom: 0;
+    background: linear-gradient(to bottom, transparent, rgba(0,0,0,0.7), black);
+}
+
+#overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.17);
+    padding: 10px 30px;
+    z-index: 11;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    /* background-color: #dadada; */
+    color: white;
+}
+
+nav h3{
+    font-size: 24px;
+}
+
+nav button{
+    padding: 10px 27px;
+    border: none;
+    outline-style: none;
+    border-radius: 100px;
+    background-color: white;
+    color: black;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+#overlay h1{
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 70px;
+    color: white;
+    font-weight: 600;
+}
+
+#overlay footer{
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 10%;
+    color: white;
+}
+
+#left h2 span{
+    font-weight: 100;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+#left h2{
+    font-size: 10px;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+
+#right{
+    display: flex;
+}
+
+#right a{
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+    margin-left: 20px;
+    font-weight: 100;
+}
+
+#contents{
+    width: 100%;
+    height: 90vh;
+    background-color: black;
+    padding-top: 1px;
+}
+
+#elements{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 65%;
+    height: 164px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.images{
+    position: relative;
+    overflow: hidden;
+    width: 49.3%;
+    height: 70px;
+    border-radius: 5px;
+    /* background-color: white */
+}
+
+#img1{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1569595703413-2d9226d9d3c8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=80);
+    background-position: center;
+    background-size: cover;
+    /* background-color: violet; */
+}
+
+#img2{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1502134249126-9f3755a50d78?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
+    background-position: bottom;
+    background-size: cover;
+}
+
+
+#img3{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1511593358241-7eea1f3c84e5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1934&q=80);
+    background-position: center;
+    background-size: cover;
+}
+
+#img4{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1583699998579-5872a2117151?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
+    /* background-image: url(https://images.unsplash.com/photo-1522046310824-b844b4b5806f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80); */
+    background-position: bottom;
+    background-size: cover;
+}
+
+.images h5{
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 12px;
+    font-weight: 100;
+}
+
+
+#contents p{
+    width: 35%;
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    font-weight: 100;
+    line-height: 16px;
+    margin: 0 auto;
+    margin-top: 90px;
+}
+
+#one{
+    z-index: 8;
+}
+
+#two{
+    z-index: 9;
+}
+
+#three{
+    z-index: 10;
+}
+
+
+
+
+
